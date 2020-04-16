@@ -1,0 +1,105 @@
+.headercontent {
+    z-index: 1001;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: rgba(255,255,255,.97);
+    border-bottom: 1px solid black;
+    padding: 5px 0!important;
+  }
+
+  .header-inner {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px 26px !important;
+	margin: 0 auto;
+	max-width: 1360px;
+}
+
+.heading-logo {
+	display: flex;
+	width: auto;
+	left: auto;
+	align-items: center;
+	margin-right: auto;
+}
+
+.logo-text {
+    margin-left: 30px;
+    font-family: Trajan Pro !important;
+    bottom: 20px;
+    position: absolute;
+}
+
+.site-title {
+    margin: 0;
+    font-family: trajan;
+    letter-spacing: 6.5px;
+}
+
+.main-heading {
+    margin: 0.5px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: "trajan" !important;
+}
+
+.sub-site-title {
+    margin: 0;
+    margin-top: 10px;
+    font-family: trajan;
+}
+
+.subheading-main {
+    font-size: 13px;
+    font-family: "trajan" !important;
+}
+
+.menu-button {
+    // width: 6%;
+    position: absolute;
+    bottom: 52px;
+    right: 84px;
+    float: right;
+}
+
+
+.menu-button > div > span {
+    height: 2px !important;
+}
+
+.menu-button:hover  > div > span {
+    background: rgb(55, 152, 251) !important;
+}
+
+.menu-button-active > div> span{
+    background: rgb(55, 152, 251) !important;
+    height: 2px !important;
+}
+.menu-button-active {
+    position: absolute;
+    bottom: 52px;
+    right: 84px;
+    float: right;
+}
+
+.profile-button {
+    position: absolute;
+    bottom: 35.5px;
+    right: 20px;
+    float: right;
+}
+
+.bm-overlay {
+    width: 25%;
+    background: rgb(200, 0, 0);
+}
+
+
+
+.bm-menu-wrap {
+    background-color: rgb(255, 254, 254);
+    top: 100px;
+    background-size: 100%;
+}

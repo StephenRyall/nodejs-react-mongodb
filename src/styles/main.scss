@@ -1,0 +1,28 @@
+@import "./dashboard.scss";
+@import "./base/sideBar.scss";
+
+html, body {
+    margin: 0; 
+    height: 100%; 
+    background-color: white;
+  }
+
+  .page-layout {
+    display: grid;
+    min-height: 100%;
+    min-width: 320px;
+    color: #231f20;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    font-family: "trajan"
+}
+
+.main-page {
+  width: 132rem;
+  margin: auto;
+  height: 65px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
