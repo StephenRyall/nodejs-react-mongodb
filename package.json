@@ -32,7 +32,7 @@
     "html-webpack-plugin": "^4.0.3",
     "jsonfile": "^6.0.1",
     "loaders.css": "^0.1.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "material-ui": "^0.20.2",
     "moment": "^2.24.0",
     "mongodb": "^3.5.5",
